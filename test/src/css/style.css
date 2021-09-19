@@ -1,0 +1,132 @@
+body {
+  margin: 0; }
+  body .main-wrapper {
+    background: #efefef; }
+    body .main-wrapper header {
+      background: url(../img/header_background_v1.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 100vh; }
+      body .main-wrapper header img {
+        width: 16%; }
+      body .main-wrapper header nav {
+        display: flex;
+        float: right;
+        padding-top: 0;
+        font-size: 0;
+        font-family: Calibri; }
+        body .main-wrapper header nav a {
+          font-size: 25px;
+          background: none;
+          padding: 8px 100px;
+          text-decoration: #efefef;
+          color: #efefef;
+          border-right: gray solid 2px; }
+      body .main-wrapper header section h1 {
+        color: #efefef;
+        font-family: Calibri;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 183px; }
+      body .main-wrapper header section a {
+        position: relative;
+        left: 44%;
+        background: #01acac;
+        color: #efefef;
+        padding: 8px 70px;
+        text-decoration: none;
+        font-family: Calibri; }
+    body .main-wrapper main {
+      width: 70%;
+      margin: 0 auto; }
+      body .main-wrapper main .toolbar {
+        text-align: right;
+        font-weight: bold;
+        font-size: 30px;
+        font-style: unset;
+        margin-top: 25px; }
+        body .main-wrapper main .toolbar input {
+          border: 2px solid #607d8b;
+          height: 30px;
+          padding: 0 0 0 10px; }
+      body .main-wrapper main .post-list h1 {
+        text-align: right;
+        font-family: Calibri;
+        margin-bottom: 0;
+        font-size: 30px; }
+      body .main-wrapper main .post-list article {
+        background: #efefef;
+        color: #010f16;
+        margin-bottom: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        body .main-wrapper main .post-list article img {
+          width: 300px;
+          height: 300px;
+          margin: 15px 0 15px 15px; }
+        body .main-wrapper main .post-list article .padding {
+          padding: 0 30px 0 10px; }
+          body .main-wrapper main .post-list article .padding .post {
+            text-align: justify;
+            font-family: Calibri; }
+            body .main-wrapper main .post-list article .padding .post .post-description {
+              color: #e90303;
+              font-size: 15px; }
+            body .main-wrapper main .post-list article .padding .post h3 {
+              color: #01acac;
+              font-size: 20px;
+              margin-bottom: 5px;
+              margin-top: 5px; }
+            body .main-wrapper main .post-list article .padding .post p {
+              margin-top: 5px; }
+        body .main-wrapper main .post-list article .btn {
+          background: #01acac;
+          border: none;
+          color: #efefef;
+          padding: 10px 65px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          float: right;
+          margin-top: 20px; }
+      body .main-wrapper main .about h1 {
+        text-align: right;
+        font-family: Calibri;
+        margin-bottom: 0;
+        font-size: 30px; }
+      body .main-wrapper main .about img {
+        width: 100%; }
+      body .main-wrapper main .about p {
+        font-family: Calibri;
+        margin-top: 0; }
+      body .main-wrapper main .contact-form h1 {
+        text-align: right;
+        font-family: Calibri;
+        margin-bottom: 0;
+        margin-top: 40px;
+        font-size: 30px; }
+      body .main-wrapper main .contact-form h4 {
+        text-align: right;
+        font-family: Calibri;
+        margin-top: 0; }
+      body .main-wrapper main .contact-form form {
+        color: #01acac;
+        text-align: right; }
+        body .main-wrapper main .contact-form form .childForm1 {
+          display: flex;
+          justify-content: space-between; }
+          body .main-wrapper main .contact-form form .childForm1 .inputBox {
+            width: 48%; }
+            body .main-wrapper main .contact-form form .childForm1 .inputBox input {
+              width: 100%;
+              height: 40px; }
+        body .main-wrapper main .contact-form form .btn {
+          background: #01acac;
+          border: none;
+          color: #efefef;
+          padding: 8px 70px;
+          text-decoration: none;
+          font-size: 15px;
+          margin-top: 20px; }

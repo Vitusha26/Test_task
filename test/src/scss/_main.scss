@@ -1,0 +1,177 @@
+// Write your styles here
+body {
+margin: 0;
+  .main-wrapper {
+    background:$whiteColor;
+    header {
+      background:url(../img/header_background_v1.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      img{
+        width: 16%;
+      }
+      nav{
+        display: flex;
+        float: right;
+        padding-top: 0;
+        font-size: 0;
+        font-family: $logoTextDecoration;
+        a{
+          font-size: 25px;
+          background: none;
+          padding: 8px 100px;
+          text-decoration: $whiteColor;
+          color: $whiteColor;
+          border-right: gray solid 2px;
+        }
+      }
+      section{
+        h1{
+          color:$whiteColor;
+          font-family: $logoTextDecoration;
+          text-align: center;
+          font-size: 30px;
+          margin-top: 183px;
+        }
+        a{
+          position: relative;
+          left: 44%;
+          background: $btnBackground;
+          color: $whiteColor;
+          padding: 8px 70px;
+          text-decoration: none;
+          font-family: $logoTextDecoration;
+        }
+      }
+    }
+    main {
+      width: 70%;
+      margin: 0 auto;
+
+      .toolbar {
+        text-align: right;
+        font-weight: bold;
+        font-size: 30px;
+        font-style: unset;
+        margin-top: 25px;
+        input {
+          border: 2px solid #607d8b;
+          height: 30px;
+          padding: 0 0 0 10px;
+        }
+      }
+      .post-list {
+        h1 {
+          text-align: right;
+          font-family: $logoTextDecoration;
+          margin-bottom: 0;
+          font-size: 30px;
+        }
+        article {
+          background: $whiteColor;
+          color: #010f16;
+          margin-bottom: 25px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            width: 300px;
+            height: 300px;
+            margin: 15px 0 15px 15px;
+          }
+          .padding {
+            padding: 0 30px 0 10px;
+            .post {
+              text-align: justify;
+              font-family: $logoTextDecoration;
+              .post-description {
+                color: $textColor2;
+                font-size: 15px;
+              }
+              h3 {
+                color: $textColor1;
+                font-size: 20px;
+                margin-bottom: 5px;
+                margin-top: 5px;
+              }
+              p {
+                margin-top: 5px;
+              }
+            }
+          }
+          .btn {
+            background: $btnBackground;
+            border: none;
+            color: $whiteColor;
+            padding: 10px 65px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            float: right;
+            margin-top: 20px;
+          }
+        }
+      }
+      .about {
+        h1 {
+          text-align: right;
+          font-family: $logoTextDecoration;
+          margin-bottom: 0;
+          font-size: 30px;
+        }
+        img {
+          width: 100%;
+        }
+        p {
+          font-family: $logoTextDecoration;
+          margin-top: 0;
+        }
+      }
+      .contact-form {
+        h1 {
+          text-align: right;
+          font-family: $logoTextDecoration;
+          margin-bottom: 0;
+          margin-top: 40px;
+          font-size: 30px;
+        }
+        h4 {
+          text-align: right;
+          font-family: $logoTextDecoration;
+          margin-top: 0;
+        }
+        form {
+          color: $textColor1;
+          text-align: right;
+          .childForm1 {
+            display: flex;
+            justify-content: space-between;
+
+            .inputBox {
+              width: 48%;
+
+              input {
+                width: 100%;
+                height: 40px;
+              }
+            }
+          }
+          .btn {
+            background: $btnBackground;
+            border: none;
+            color: $whiteColor;
+            padding: 8px 70px;
+            text-decoration: none;
+            font-size: 15px;
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
